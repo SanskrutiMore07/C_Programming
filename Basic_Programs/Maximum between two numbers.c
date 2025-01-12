@@ -3,19 +3,19 @@
 int main()
 {
     int a,b;
-    printf("\n enter any two numbers ");
+    printf("\n Enter any two numbers ");
     scanf("%d%d",&a,&b);
     if(a>b)
     {
-        printf("%d is maximum ",a );
+        printf("%d is Maximum ",a );
     }
     if(b>a)
     {
-        printf("%d is maximum",b);
+        printf("%d is Maximum",b);
     }
     if (a==b)
     {
-        printf("\n both are equal");
+        printf("\n Both are equal");
     }
     getch();
     return 0;
