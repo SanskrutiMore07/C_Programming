@@ -25,9 +25,9 @@ int main()
     std.Total = std.phy + std.maths + std.chem;
     std.Per = (std.Total/300)*100;
 
-    printf("\n Roll No of student : %d",std.Roll_No);
-    printf("\n Name Of Student :%s",std.Name);
-    printf("\n Total Marks :%0.0f",std.Total);
+    printf("\n Roll No of student : %d",std.Roll_No); //01
+    printf("\n Name Of Student :%s",std.Name); // sayali more
+    printf("\n Total Marks :%0.0f",std.Total); 
     printf("\n Percentage :%0.3f",std.Per);
 
     printf("\n Thanks!!!!");
